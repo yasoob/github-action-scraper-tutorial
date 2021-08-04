@@ -37,7 +37,7 @@ jobs:
           username: ${{secrets.MAIL_USERNAME}}
           password: ${{secrets.MAIL_PASSWORD}}
           subject: Latest PPRA tenders for ${{env.DATE}}
-	        to: hi@yasoob.me
+          to: hi@yasoob.me
           from: Automated Email
           ignore_cert: true
           secure: true
